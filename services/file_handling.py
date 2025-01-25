@@ -4,7 +4,7 @@ import csv
 from datetime import date
 
 CSV_FILE_PATH = 'csv_files/schedule_cleaning.csv'
-SYS_CSV_FILE_PATH = os.path.join(sys.path[1], os.path.normpath(CSV_FILE_PATH))
+SYS_CSV_FILE_PATH = os.path.join(sys.path[0], os.path.normpath(CSV_FILE_PATH))
 
 
 def prepare_data_person(name: str) -> str:

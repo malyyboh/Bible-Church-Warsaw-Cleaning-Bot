@@ -16,6 +16,5 @@ bot_keyboard = ReplyKeyboardMarkup(
     keyboard=[[search_button],
               [show_all_button],
               [web_app_button]],
-    resize_keyboard=True,
-    input_field_placeholder='Натисни одну з кнопок...'
+    resize_keyboard=True
 )
